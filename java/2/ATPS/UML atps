@@ -1,0 +1,42 @@
+UML
+
+
+----------------------------
+| ProgramaPrincipal        | 
+----------------------------
+
+
+
+----------------------------
+| Celetista                 | 
+-----------------------------
+| -Nome: String, 25         |
+| -Endereco: String, 25     |
+| +Telefone: String, 13     |
+| -RG: String, 12           |
+| -CPF: String, 14          |
+| +SalarioBruto: Float      |
+-----------------------------
+| setTelefone();            |
+| setSalarioMensal();       |
+| setIR();
+
+
+
+
+-----------------------------
+| PessoaJuridica            |
+-----------------------------
+| -Nome: String,25          |
+| -Endereco: String, 25     |
+| +Telefone: String, 13     |
+| -CNPJ: String, 18         |
+| +ValorHora: Float         |
+----------------------------
+| setTelefone();            |
+| setValorHora();           |
+
+
+
+
+
